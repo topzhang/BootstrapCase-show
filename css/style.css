@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+.logo {
+  padding: 0;
+}
+#navbar-collapse ul{
+  margin-top:0
+}
+#myCarousel {
+  margin-top: 50px ;
+}
+#carousel-inner .item img{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+
+}
+#item1 {
+  background-color: #ffe41e;
+}
+#item2 {
+  background-color: #09ba89;
+}
+#item3 {
+  background-color: rgb(162,36,170);
+}
+/*.carousel-control {*/
+  /*font-size: 100px;*/
+  /*!*line-height: 600px;*!*/
+/*}*/
+.tab1 {
+  margin: 30px 0;
+  color: #666;
+}
+
+.tab-h2,.tab-p{
+  text-align: center;
+  letter-spacing: 1px;
+}
+.tab-h2 {
+  font-size: 30px;
+  color: #0000ff;
+}
+.tab-p {
+  font-size: 18px;
+  margin: 20px 0 40px 0;
+}
+.tab1 .text-muted{
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.tab1 .media-heading {
+  margin: 4px 0 20px 0;
+}
+
+/*移动端屏幕,bootstrap以移动端为优先，已经设置好了，所以无需再次设置*/
+
+@media (min-width: 768px) {
+  .tab-h2 {
+    font-size: 26px;
+  }
+  .tab-p {
+    font-size: 18px;
+  }
+  .text h3 {
+    font-size: 20px;
+  }
+  .text p {
+    font-size: 14px;
+  }
+  .tab2-text p{
+    /*float: left;*/
+  }
+  .tab2-img {
+    float: right;
+  }
+  .jumbotron h1 {
+    font-size: 26px;
+
+  }
+  .jumbotron h4 {
+    font-size: 16px;
+
+  }
+  .info-content h4 {
+    font-size: 14px;
+  }
+  #about h3 {
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(41, 116, 149, 0.55);
+    padding: 20px 0;
+    margin: 10px 10px 0 ;
+  }
+  #about a {
+    color: #0000ff;
+  }
+  #about .about {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+  }
+
+  #about p {
+    line-height: 2;
+  }
+
+}
+@media (min-width: 992px) {
+  .tab-h2 {
+    font-size: 28px;
+  }
+  .tab-p {
+    font-size: 18px;
+  }
+  .text h3 {
+    font-size: 24px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+
+  }
+  .jumbotron h4 {
+    font-size: 17px;
+
+  }
+  .info-content h4 {
+    font-size: 16px;
+  }
+
+}
+@media (min-width: 1200px) {
+  .tab-h2 {
+    font-size: 30px;
+  }
+  .tab-p {
+    font-size: 18px;
+  }
+  .text h3 {
+    font-size: 26px;
+  }
+  .text p {
+    font-size: 18px;
+  }
+  .jumbotron h1 {
+    font-size: 36px;
+
+  }
+  .jumbotron h4 {
+    font-size: 18px;
+
+  }
+  .jumbotron h1 {
+    font-size: 36px;
+    padding:0 0 0 20px;
+  }
+  .jumbotron h4 {
+    font-size: 18px;
+    padding:0 0 0 20px;
+  }
+  
+  #information {
+    background-color: #eee;
+    padding: 40px 0;
+  }
+
+  .info-content {
+    background-color: #fff;
+    margin:0 0 20px 0 ;
+    box-shadow: 2px 2px 3px #ccc;
+  }
+  .info-content img {
+    margin: 12px 0;
+  }
+  .info-content h4 {
+    color: #333333;
+    padding: 2px 0 0 0;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .info-content p {
+    line-height: 1.6;
+  }
+
+  .info-right {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+  }
+  .info-right blockquote {
+    margin: 0;
+    padding:0;
+  }
+  .info-right h2 {
+    font-size: 20px;
+    color: #333333;
+    padding: 3px;
+  }
+
+}
+
+.tab2 {
+  background-color: #eee;
+  padding: 60px 20px;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tab2 img {
+  width: 40%;
+  height: 40%;
+}
+.tab3 {
+  padding: 60px 20px;
+  text-align: center;
+}
+.tab3 img {
+  width: 65%;
+  height: 65%;
+}
+
+#case {
+  padding: 40px 0;
+  background-color: #eee;
+  text-align: center;
+}
+#case h4 {
+  color: #666666;
+}
+#case p {
+  color: #666;
+  line-height: 1.6;
+}
+
+
+#about{
+  background: #eeeeee;
+  padding: 40px 0;
+
+}
+#about h3 {
+  color: #333;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(41, 116, 149, 0.55);
+  padding: 20px 0;
+  margin: 10px 10px 0 ;
+}
+#about a {
+  color: #0000ff;
+}
+#about .about {
+  background-color: #fff;
+  box-shadow: 2px 2px 3px #ccc;
+}
+
+#about p {
+  line-height: 2;
+}
+
+#about h3 {
+  color: #333;
+}
+
+#footer {
+  background-color: #666;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.jumbotron {
+  background-image: url("../img/bg.jpg");
+  margin: 50px 0 0 0;
+  color: #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

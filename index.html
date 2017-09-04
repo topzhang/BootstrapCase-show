@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Bootstrap案例</title>
+  <link rel="stylesheet" href="./dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!--导航-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="" class="navbar-brand logo">
+          <img src="./img/logo.jpg" alt="logo" style="height: 50px">
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="glyphicon glyphicon-triangle-bottom"></span>
+        </button>
+      </div>
+      <!--响应式缩小隐藏导航-->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" >
+          <li class="active"><a href="#">
+            <span class="glyphicon glyphicon-home">
+            </span> 首页</a>
+          </li>
+          <li class=""><a href="information.html">
+            <!--图标-->
+            <span class="glyphicon glyphicon-th-list"></span>
+            新闻
+          </a>
+          </li>
+          <li><a href="case.html"><span class="glyphicon glyphicon-briefcase"></span> 产品</a></li><span class=""></span>
+          <li><a href="about.html"><span class="glyphicon glyphicon-folder-open"></span> 其他</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+
+  </nav>
+
+<!--轮播-->
+
+  <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!--图片-->
+    <div class="carousel-inner" id="carousel-inner">
+      <div id="item1" class="item active"><img src="./img/html2.jpg" alt=""></div>
+      <div id="item2" class="item"><img src="./img/class.jpg" alt=""></div>
+      <div id="item3" class="item"><img src="./img/div.jpg" alt=""></div>
+
+      <!--<div style="background-color: #eee;">-->
+        <!--<img src="img/slide.png" alt="">-->
+      <!--</div>-->
+    </div>
+    <!--左右点击-->
+    <a href="#myCarousel" data-slide="prev" class="carousel-control left">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#myCarousel" data-slide="next" class="carousel-control right">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+
+  <div class="tab1">
+    <div class="container">
+      <h2 class="tab-h2">
+        我们的企业
+      </h2>
+      <p class="tab-p">实力雄厚，专业，高效，认真，自律！</p>
+
+      <!--内容-->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="./img/1.png" alt="" class="media-object" style="width: 100px;height: 100px">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">实力内容</h4>
+              <p class="text-muted">OUR:牛X，牛X，牛X，牛X，牛X，牛X不解释</p>
+              <p>OTHER：low，low，low，low，low不多说</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img src="./img/2.png" alt="" class="media-object" style="width: 100px;height: 100px">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">技术</h4>
+            <p class="text-muted">OUR:牛X，牛X，牛X，牛X，牛X，牛X不解释</p>
+            <p>OTHER：low，low，low，low，low不多说</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img src="./img/3.png" alt="" class="media-object" style="width: 100px;height: 100px">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">其他</h4>
+            <p class="text-muted">OUR:牛X，牛X，牛X，牛X，牛X，牛X不解释</p>
+            <p>OTHER：low，low，low，low，low不多说</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="./img/4.png" alt="" class="media-object" style="width: 100px;height: 100px">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">大牛在线</h4>
+              <p class="text-muted">OUR:牛X，牛X，牛X，牛X，牛X，牛X不解释</p>
+              <p>OTHER：low，low，low，low，low不多说</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+<!--内容-->
+  <div class="tab2">
+    <div class="container">
+      <div class="row">
+        <div class="text col-md-6 col-sm-6 tab2-text">
+          <h3>技术雄厚</h3>
+          <p>技术大牛，质量可靠，业界良心</p>
+        </div>
+        <div class="col-md-6 tab2-img">
+          <img src="./img/tab1.png" alt="" style="width: 320px;height: 350px" class="img-responsive center-block">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="tab3">
+    <div class="container">
+      <div class="row">
+        <div class="text col-md-6 col-sm-6">
+          <img src="./img/tab2.png" alt="" style="width: 475px;height: 300px" class="img-responsive center-block">
+        </div>
+        <div class="col-md-6">
+          <h3>技术雄厚</h3>
+          <p>技术大牛，质量可靠，业界良心</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+<!--底部-->
+  <footer id="footer">
+    <div class="container">
+      <p>信息技术|合作|版权</p>
+      <p>XICP备XXXXX号 电信业务审批[2001]字第xxx号函 XX公网安备XXXXXXXXX</p>
+    </div>
+  </footer>
+
+
+
+<script src="./dist/js/jquery-3.2.1.min.js"></script>
+<script src="./dist/js/bootstrap.js"></script>
+<script>
+  $(function () {
+//    轮播左右点击垂直居中
+//    $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px')
+//    $(window).resize(function () {
+//      var $height = $('.carousel-inner img'.eq(0).height) ||
+//                    $('.carousel-inner img'.eq(0).height) ||
+//                    $('.carousel-inner img'.eq(0).height);
+//      $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px')
+//    })
+    // 轮播自动播放
+    $('#myCarousel').carousel({
+      interval : 2000
+    })
+
+
+//    文字垂直居中
+    $(window).load(function () {
+      $('.text').eq(0).css('margin-top',($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2  + 'px');
+
+    })
+    $(window).resize(function () {
+      $('.text').eq(0).css('margin-top',($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2  + 'px');
+    })
+    $(window).load(function () {
+      $('.text').eq(1).css('margin-top',($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2  + 'px');
+    })
+    $(window).resize(function () {
+      $('.text').eq(1).css('margin-top',($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2  + 'px');
+    })
+
+  });
+
+
+</script>
+</body>
+</html>
